@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menuprincipal{
+	width: 1100px;
+	margin: 30px auto;
+	background: pink;
+}	
+
+.menuprincipal ul{
+	list-style: none;
+}
+
+.menu > li{
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 40px;
+	color: white;
+	font-family: Open sans;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: purple;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: white;
+	display: none;
+	transition: .3s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: black;
+	font-family: Open sans;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	display: block;
+}
+
+.centrar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+	padding: 15px;
+}
+
+.video2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.piepagina {
+	border-style: inset;
+	background-color:pink;
+	color: black;
+	
+}
